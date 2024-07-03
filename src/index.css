@@ -1,0 +1,72 @@
+
+.main-cont {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 210px);
+  grid-auto-rows: minmax(100px, 170px);
+  gap: 25px;
+  background-color: #494F55;
+  justify-items: center;
+  min-height: 100vh;
+}
+
+img {
+  width: 130px !important;
+  height: 130px !important;
+  margin: auto;
+}
+
+a {
+  text-decoration: none !important;
+  color: white !important;
+  margin: 0 4px;
+}
+
+.pokemon-card {
+  border: none !important;
+  transition: .3s;
+  cursor: pointer;
+  background-color: black !important;
+  width: 210px;
+}
+
+.pokemon-card:hover {
+  box-shadow: 2px 2px 20px rgb(72, 72, 72);
+  transform: translateY(-10px);
+}
+
+.pokemon-area {
+  height:80vh;
+  position: relative;
+  top: 13vh;
+  padding: 20px;
+  background-color: black;
+  width: 95%;
+  margin: 0 2.5%;
+  border-radius: 10px;
+}
+
+.details {
+  border-top: solid white 2px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+h3, h1 {
+  color: white !important;
+}
+
+nav {
+  position: fixed !important;
+  z-index: 10;
+}
+
+.details-heart-icon {
+  color: white;
+  font-size: 70px;
+  cursor: pointer;
+}
+
+.details-heart-icon:hover {
+  filter: brightness(.8);
+}
+
